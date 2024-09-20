@@ -2,3 +2,5 @@
 
 Nombre y apellidos: Juan Antonio Rubio Ruiz
 Usuario GitHub: juarurtpt
+
+Iván Tomás García - Ivanfroste24
