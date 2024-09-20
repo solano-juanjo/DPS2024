@@ -7,3 +7,7 @@
 ## Paula Melcón Ruano paulamelcon
 
 ## Lucio Hernando Cánovas - LucioCanovas
+
+## Nombre y apellidos: Ángel Madrid Morales Usuario GitHub: AngelMadM
+
+## Salaheddine Aït Radi saitradi
