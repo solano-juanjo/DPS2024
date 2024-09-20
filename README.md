@@ -1,1 +1,4 @@
 # Desarro de Proyectos Software 2024
+
+Nombre y apellidos: Juan Antonio Rubio Ruiz
+Usuario GitHub: juarurtpt
