@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     fetchCursos('http://localhost:5000/api/Curso/ultimos', 'ultimos-cursos-container');
     fetchCursos('http://localhost:5000/api/Curso/valorados', 'cursos-valorados-container');
-    fetchCategorias('http://localhost:5000/api/categorias', 'categorias-container')
     fetchAutores('http://localhost:5000/api/autores', 'autores-valorados-container');
 });
 
