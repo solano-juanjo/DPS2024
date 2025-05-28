@@ -187,6 +187,8 @@ function mostrarCursos(cursos, container) {
         cursosCompletos.push({
             titulo: "Curso próximamente",
             descripcion: "Nuevo curso estará disponible pronto.",
+
+    
             calificacion: 0,
             esFicticio: true 
         });
@@ -211,9 +213,7 @@ function mostrarCursos(cursos, container) {
                     <div class="card-body">
                         <h5 class="card-title">${curso.titulo || 'Sin título'}</h5>
                         <p class="card-text small">${curso.descripcion || 'Sin descripción'}</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            ${!curso.esFicticio ? `<span class="badge bg-light text-dark">${nombreCategoria}</span>` : ''}
-                        </div>
+ 
                     </div>
                     <div class="card-footer bg-transparent">
                         <button class="btn btn-sm btn-primary w-100" ${curso.esFicticio ? 'disabled' : ''}>
