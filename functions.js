@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     fetchCursos('http://localhost:5000/api/Curso/ultimos', 'ultimos-cursos-container');
+    fetchCursos('http://localhost:5000/api/Curso/valorados', 'cursos-valorados-container');
 });
 
 
@@ -54,6 +55,7 @@ async function fetchCursos(endpoint, containerId) {
 
 
 window.addEventListener('load', function() {
+    // Animar elementos principales con una entrada suave
     const elements = document.querySelectorAll('.list-group-item, .autor-card');
     elements.forEach((el, index) => {
         el.style.opacity = '0';
@@ -66,3 +68,4 @@ window.addEventListener('load', function() {
         }, 100 + (index * 50));
     });
 });
+
